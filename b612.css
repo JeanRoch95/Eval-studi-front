@@ -410,6 +410,47 @@ footer{
         position: absolute;
     }
 
+    /* DON Header */
+    
+    .don{
+        top: 200px;
+        right: 150px;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        border-radius: 50%;
+        text-decoration: none;
+        background-size: cover;
+        background: rgba(255, 0, 0, 0.884);
+        }
+    
+    .don-txt{
+        font-weight: bold;
+        color: white;
+        margin-top: 50px;
+        font-size: 1.5rem;
+        line-height:30px;
+        opacity: initial;
+    }
+
+    .sticky-don{
+        display: block;
+        z-index: 2;
+        position: sticky;
+        top: -200px;
+    }
+
+    .size{
+        font-size: 0.8rem;
+        line-height: 3px;
+    }
+
+    .don:hover{
+        transform: translate3d(0,-40px,0);
+        transition: transform .5s cubic-bezier(.39,.575,.565,1) 0s,opacity .4s linear .1s,visibility 0s linear .5s;
+    }
+
     /* citation */
 
 .citation{
