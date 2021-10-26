@@ -1,0 +1,331 @@
+*{ margin:0; padding:0; box-sizing:border-box; 
+}
+
+body{
+font-size: 62.5%;
+font-family: 'Quicksand', sans-serif;
+}
+
+/*nav-bar*/
+
+.mynav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    opacity:0.9;
+    height: 20px;
+}
+
+
+
+.navbar{
+    background:lightgrey;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
+
+.navbar .navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.img-tittle{
+    display: none;
+}
+
+.tittle-pc{
+    display: none;
+}
+/*img*/
+
+.img-header{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* chevron top */
+
+
+    /*img*/
+
+.img-header{
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin-top: 40px;
+}
+
+/* chevron top */
+
+.dash{
+    margin-top: 20px;
+    display:block;
+    text-align: center;
+}
+.chevron{
+    height: 70px;
+    width: 70px;
+    color: black;
+
+}
+
+.chevron:hover{
+    opacity: 0.8;
+    height: 80px;
+    color:lightblue;
+
+}
+
+
+.chevron:hover{
+    opacity: 0.8;
+    height: 80px;
+    color:lightblue;
+
+}
+.tittle-main{
+    height: 50px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    display: table;
+    white-space: nowrap;
+    text-align: center;
+  }
+  h1:before, h1:after {
+    content: "";
+    display: table-cell;
+    width: 50%;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
+  }
+
+
+
+
+
+        /* main */  
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: lightsalmon;
+    padding: 20px;
+}
+
+h2:hover{
+    color: white;
+    background: lightsalmon;
+}
+
+.dash-form{
+    color:black;
+    position: absolute;
+    right: 40px;
+    top: 72px;
+}
+
+.description{
+    position: relative;
+}
+
+
+
+
+h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    background:lightgrey;
+}
+
+.tarif p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.description h4{
+    text-align: center;
+}
+
+
+
+.description ul{
+    font-size: 1rem;
+}
+
+.description li{
+    padding: 10px;
+}
+
+h2 a{
+    text-decoration: none;
+    color:lightcoral;
+}
+h2 a:hover{
+    color: white;
+}
+
+.icon-event{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.icon-event a{
+    color: black;
+}
+
+
+
+        /* formulaire */
+
+form {
+    max-width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label.inline-label {
+    display:block;
+}
+
+fieldset {
+    background-color: lightskyblue;
+}
+
+legend {
+    font-style: italic;
+    padding: 5px;
+}
+
+form input, form select {
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+}
+
+
+button[type=submit] {
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.civilité{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.homme{
+    margin-right: 50px;
+}
+label{
+    font-size: 1rem;
+}
+
+fieldset button:hover{
+    background: white;
+}
+
+/* MAP */
+
+.map{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 250px;
+    width: 100%;
+    background: #333333;
+}
+
+.h4{
+    margin: 50px;
+    font-size: 1.4rem;
+}
+
+
+
+.mentions{
+    margin-top: 10px;
+}
+
+.link{
+    margin-top: 50px;
+}
+
+.footer-link{
+    font-size: 1rem;
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+}
+
+.footer-link:hover{
+    color: lightskyblue;
+}
+
+/* Chevron-up */
+
+.dash-up{
+    height: 100px;
+    width: auto;
+    position: relative;
+}
+
+.chevron-up{
+    color: white;
+    height: 70px;
+    width: 70px;
+    left: 45%;
+    margin-top : 30px;
+}
+
+.chevron-up:hover{
+    opacity: 0.8;
+    margin-top: 20px;
+    height: 80px;
+    color: lightskyblue;
+}
+
+.link-social{
+    display: none;
+}
+.stars{
+    display: none;
+}
+.sticky-don{
+    display: none;
+}
+
