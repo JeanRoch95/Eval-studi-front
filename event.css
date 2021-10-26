@@ -329,3 +329,65 @@ footer{
     display: none;
 }
 
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    body{
+        background:#fcf9f9;
+    }
+    .body-tablet{
+        margin-top: 50px;
+        margin-left:auto;
+        margin-right: auto;
+        height: 100%;
+        width: 85%;
+        background: white;
+        margin-bottom: 50px;
+    }
+        /* nav-bar */
+
+    .navbar{
+        width: 100%;
+        margin-top: 50px;
+        position: sticky;
+        top: 0;
+    }
+
+        /* img-header */
+
+    .img-header{
+        height: 500px;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .dash-form{
+        color:black;
+        position: absolute;
+        right: 100px;
+        top: 72px;
+    }
+
+    /* Main */
+
+    .box-img-fox{
+        position: relative;
+    }
+
+    .fox{
+        display: block;
+        width: 80px;
+        height: 60px;
+        position: absolute;
+        right: 20px;
+        bottom: 5px;
+    }
+
+    /* MAP*/
+
+    .map{
+        height: 500px;
+    }
+}
